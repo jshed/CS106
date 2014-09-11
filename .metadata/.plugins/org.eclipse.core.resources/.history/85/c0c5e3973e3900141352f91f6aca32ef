@@ -1,0 +1,19 @@
+
+public class TipCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* this program calculates the tip of a bill at a restaurant
+		 * the bill received was $50.00
+		 * I used an average tip percentage of 15%
+		 * this calculated a tip of $7.50
+		 */
+		double bill = 50.00;
+		System.out.println("Bill: $50.00");
+		double tipPercent = .15;
+		System.out.println("Recommended Gratuity: 15%");
+		System.out.println(bill*tipPercent);
+		double tipAmount = bill*tipPercent;
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class TipCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double bill = 50.00;
+		double tipPercent = .20;
+		System.out.println(bill*tipPercent);
+		double tipAmount = bill*tipPercent;
+	}
+
+}
