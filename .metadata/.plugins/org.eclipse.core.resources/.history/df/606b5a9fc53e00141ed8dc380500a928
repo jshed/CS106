@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class TipCalculator2 {
+	public static void main(String[] arg) {
+		Scanner console = new Scanner(System.in);
+		System.out.println("Total Bill: ");
+		double total = console.nextDouble(); 
+		System.out.println("Tip Percent: ");
+		double tipPercent = console.nextDouble();
+		double billTotal = Calculate(double total, double tipPercent)
+		System.out.println(billTotal);
+	}
+	
+	public static double Calculate(double total, double tipPercent); {
+		double totalBill = total*tipPercent;
+		return totalBill;
+		
+	}
+
+}

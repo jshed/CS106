@@ -29,13 +29,18 @@ public class TipCalculator {
 		double tipAmount = bill*tipPercent;
 		System.out.print("Total Bill: ");
 		System.out.print("$");
-		System.out.print(tipAmount+bill);
+		double totalBill = tipAmount+bill;
+		System.out.print(totalBill);
 		System.out.println("0");
 		System.out.println("Thank You and Have a Great Day");
 	}
 	
 	public static void TipCalculator() {
 		
+		
 	}
 
 }
+
+
+

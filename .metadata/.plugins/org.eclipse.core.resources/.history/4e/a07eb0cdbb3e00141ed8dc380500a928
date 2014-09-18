@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class TipCalculator2 {
+	public static void main(String[] arg) {
+		Scanner bill = new Scanner(System.in);
+		System.out.print("")
+	}
+	
+
+}
