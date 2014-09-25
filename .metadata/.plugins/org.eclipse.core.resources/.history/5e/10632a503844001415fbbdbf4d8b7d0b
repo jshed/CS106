@@ -1,0 +1,24 @@
+import java.util.*;
+
+/**
+ * 
+ */
+
+/**
+ * @author Jordan
+ *
+ */
+public class WhichBreakingBadCharacterAreYou {
+
+	/** This program allows the user to learn which Breaking Bad character their personality represents
+	 * 
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner console = new Scanner(System.in);
+		System.out.println("Do you think of yourself as a very important person?")
+		// TODO Auto-generated method stub
+
+	}
+
+}
