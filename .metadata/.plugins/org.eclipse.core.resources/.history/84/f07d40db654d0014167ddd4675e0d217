@@ -51,12 +51,12 @@ public class WhichBreakingBadCharacterAreYou {
 		if (answer2.equalsIgnoreCase("yes")) {
 			walterWhite--;
 			skylerWhite++;
-			hankSchrader--;
+			hankSchrader++;
 			jessePinkman+=3;
 		} else if (answer2.equalsIgnoreCase("no")) {
 			walterWhite++;
 			skylerWhite--;
-			hankSchrader++;
+			hankSchrader--;
 			jessePinkman-=3;
 		}
 		/* This statement asks the third question of the program
@@ -72,12 +72,12 @@ public class WhichBreakingBadCharacterAreYou {
 		if (answer3.equalsIgnoreCase("yes")) {
 			walterWhite--;
 			skylerWhite++;
-			hankSchrader-=3;
+			hankSchrader+=3;
 			jessePinkman--;
 		} else if (answer3.equalsIgnoreCase("no")) {
 			walterWhite++;
 			skylerWhite--;
-			hankSchrader+=3;
+			hankSchrader-=3;
 			jessePinkman++;
 		}
 		/* This statement asks the fourth and final question of the program

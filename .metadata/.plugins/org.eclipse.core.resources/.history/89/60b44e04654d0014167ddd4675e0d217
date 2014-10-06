@@ -16,7 +16,7 @@ public class WhichBreakingBadCharacterAreYou {
 		/* This statement asks the first question to see what character the user represents
 		 * Each of the four questions correlates to one of the four characters more than the other three
 		 * The first question is in extreme correlation to Walter White but is in close correlation to other characters as well
-		 * The value of the variable with extreme correlation will go up by 3 or down by 3 depending on the user's answer
+		 * The value of the variable with extreme correlation will go up by 2 or down by 2 depending on the user's answer
 		 */
 		System.out.println("Do you think of yourself as a very important person?");
 		String answer1;
@@ -27,13 +27,13 @@ public class WhichBreakingBadCharacterAreYou {
 		} while (!answer1.equalsIgnoreCase("yes")
 			&& !answer1.equalsIgnoreCase("no"));
 		if (answer1.equalsIgnoreCase("yes")) {
-			walterWhite+=3;
+			walterWhite+=2;
 			skylerWhite++;
 			hankSchrader--;
 			jessePinkman--;
 			
 		} else if (answer1.equalsIgnoreCase("no")) {
-			walterWhite-=3;
+			walterWhite-=2;
 			skylerWhite--;
 			hankSchrader++;
 			jessePinkman++;
@@ -51,13 +51,13 @@ public class WhichBreakingBadCharacterAreYou {
 		if (answer2.equalsIgnoreCase("yes")) {
 			walterWhite--;
 			skylerWhite++;
-			hankSchrader--;
-			jessePinkman+=3;
+			hankSchrader++;
+			jessePinkman+=2;
 		} else if (answer2.equalsIgnoreCase("no")) {
 			walterWhite++;
 			skylerWhite--;
-			hankSchrader++;
-			jessePinkman-=3;
+			hankSchrader--;
+			jessePinkman-=2;
 		}
 		/* This statement asks the third question of the program
 		 * It is in extreme correlation to the character Hank Schrader
@@ -72,12 +72,12 @@ public class WhichBreakingBadCharacterAreYou {
 		if (answer3.equalsIgnoreCase("yes")) {
 			walterWhite--;
 			skylerWhite++;
-			hankSchrader-=3;
+			hankSchrader+=2;
 			jessePinkman--;
 		} else if (answer3.equalsIgnoreCase("no")) {
 			walterWhite++;
 			skylerWhite--;
-			hankSchrader+=3;
+			hankSchrader-=2;
 			jessePinkman++;
 		}
 		/* This statement asks the fourth and final question of the program
@@ -91,14 +91,14 @@ public class WhichBreakingBadCharacterAreYou {
 		} while (!answer4.equalsIgnoreCase("yes")
 			&& !answer4.equalsIgnoreCase("no"));
 		if (answer4.equalsIgnoreCase("yes")) {
-			walterWhite--;
-			skylerWhite+=3;
-			hankSchrader++;
+			walterWhite++;
+			skylerWhite+=2;
+			hankSchrader--;
 			jessePinkman++;
 		} else if (answer4.equalsIgnoreCase("no")) {
-			walterWhite++;
-			skylerWhite-=3;
-			hankSchrader--;
+			walterWhite--;
+			skylerWhite-=2;
+			hankSchrader++;
 			jessePinkman--;
 		}
 		calculate(walterWhite, skylerWhite, hankSchrader, jessePinkman);
