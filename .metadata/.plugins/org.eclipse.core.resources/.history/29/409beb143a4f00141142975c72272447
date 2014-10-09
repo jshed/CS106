@@ -1,0 +1,33 @@
+import java.util.*;
+import java.io.*;
+
+ * 
+ */
+
+/**
+ * @author Jordan
+ *
+ */
+public class ProjectFour {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) throws FileNotFoundException {
+		Scanner fileReader = new Scanner (new File("src/input.txt"));
+		PrintStream fileWriter = new PrintStream(new File("src/output.text"));
+		while (fileReader.hasNextLine()) {
+			processLine(fileReader.nextLine());
+		}
+		fileWriter.close();
+		fileReader.close();
+	public static void processLine (PrintStream fileWriter, String line ) {
+		Scanner lineProcessor = new Scanner(line);
+		System.out.println(fileReader.nextInt());
+		System.out.println(fileReader.next());
+	}
+		// TODO Auto-generated method stub
+
+	}
+
+}
