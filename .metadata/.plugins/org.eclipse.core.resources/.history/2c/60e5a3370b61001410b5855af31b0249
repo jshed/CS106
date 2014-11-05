@@ -1,0 +1,19 @@
+import java.util.*;
+import java.io.*;
+
+public class Car {
+	public int year;
+	public String make;
+	public int mileage;
+	public Car(int year, String make, int mileage){
+		this.year = year;
+		this.make = make;
+		this.mileage = mileage;
+	}
+
+	Analysis Analysis = new Analysis();
+	
+	
+	
+
+}
