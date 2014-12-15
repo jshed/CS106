@@ -1,0 +1,29 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.Scanner;
+
+
+public class FinalMain {
+
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		
+		SixtiesRock list = new SixtiesRock();
+		list.list();
+		
+		SeventiesRock list1 = new SeventiesRock();
+		list1.list1();
+		
+		EightiesRock list2 = new EightiesRock();
+		list2.list2();
+		
+		Alternative list3 = new Alternative();
+		list3.list3();
+
+	}
+	
+}
+
+

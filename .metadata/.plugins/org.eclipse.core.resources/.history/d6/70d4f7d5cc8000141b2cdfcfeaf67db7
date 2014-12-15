@@ -1,0 +1,27 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+
+public class EightiesRock {
+	public void list1() throws FileNotFoundException {
+		
+	Scanner fileReader = new Scanner(new File("input.txt"));
+	
+	System.out.println("80s Rock:");
+	
+	do {
+		String song = fileReader.nextLine();
+		Scanner input = new Scanner (song);
+		
+		if (song.contains("Rock") && song.contains("1980") || song.contains("1981") || song.contains("1982") || song.contains("1983") || song.contains("1984") || song.contains("1985") || song.contains("1986") || song.contains("1987") || song.contains("1988") || song.contains("1989")) {
+			input.next();
+		System.out.println(song);
+		}
+		
+	} while (fileReader.hasNextLine());
+	
+	fileReader.close();
+	
+	}
+}
